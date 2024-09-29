@@ -15,6 +15,7 @@ import {
 } from "../middlewares/validation/validation";
 
 const authRouter = Router();
+// const authRouter = Router();
 
 authRouter
   .route("/forgot-password")
