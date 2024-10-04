@@ -1,6 +1,7 @@
 "use client";
 import { Inter, Hind_Siliguri } from "next/font/google";
 import "./globals.css";
+// import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 export const siliguri = Hind_Siliguri({
