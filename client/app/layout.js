@@ -1,7 +1,8 @@
 "use client";
-import { Inter, Hind_Siliguri } from "next/font/google";
+import { store } from "@/store/store";
+import { Hind_Siliguri, Inter } from "next/font/google";
+import { Provider } from "react-redux";
 import "./globals.css";
-// import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 export const siliguri = Hind_Siliguri({
@@ -9,11 +10,9 @@ export const siliguri = Hind_Siliguri({
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-siliguri",
 });
-import { Provider } from "react-redux";
-import { store } from "@/store/store";
 
-import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function RootLayout({ children }) {
   return (
