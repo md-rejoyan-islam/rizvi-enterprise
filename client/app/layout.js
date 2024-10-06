@@ -3,6 +3,7 @@ import { store } from "@/store/store";
 import { Hind_Siliguri, Inter } from "next/font/google";
 import { Provider } from "react-redux";
 import "./globals.css";
+// import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 export const siliguri = Hind_Siliguri({
